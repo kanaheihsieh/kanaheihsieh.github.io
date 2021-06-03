@@ -9,22 +9,32 @@ margin: auto;
 overflow: auto;
 }
 
-.column1of2 {
+.column1of3 {
 	border:solid 1px;
 	float: left;
-	width: 750px;
+	width: 100px;
 	padding: 9px;
 	font-size: 130%;
 }
 /* Note: the width is the box, so if the text flows outside the box the width tag is not the problem */
 
-.column2of2 {
+.column2of3 {
 	border:solid 1px;
-	float: right;
-	width: 50px;
+	float: left;
+	width: 100px;
 	padding: 9px;
 	font-size: 90%;
 }
+/* Note: class column1of3, column1of2, has the same width:100px.*/
+	
+.column3of3 {
+	border:solid 1px;
+	float: right;
+	width: 10px;
+	padding: 9px;
+	font-size: 90%;
+}
+/* Note: class column3of3 has the same width: 50px. */
 
 </style>
 </head>
@@ -32,7 +42,7 @@ overflow: auto;
 
 <div id ="main">
 
-<div class="column1of2">
+<div class="column1of3">
 	<h3>Column #1</h3>
 	<p>
 		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum,
@@ -45,7 +55,7 @@ overflow: auto;
 	</p>
 </div>
 
-<div class="column2of2">
+<div class="column2of3">
 	<h3>Column #2</h3>
 	<p>
 		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum,
@@ -58,6 +68,20 @@ overflow: auto;
 	</p>
 </div>
 
+<div class="column3of3">
+	<h3>Column #3</h3>
+	<p>
+		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum,
+		nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec
+		congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Mauris ante ligula, facilisis
+		sed ornare eu, lobortis in odio. Praesent convallis urna a lacus interdum ut hendrerit risus congue.
+		Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet
+		sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum.
+		Sed dapibus pulvinar nibh tempor porta. Cras ac leo purus. Mauris quis diam velit.
+	</p>
+</div>
+	
+	
 </div>
 </body>
 </html>
