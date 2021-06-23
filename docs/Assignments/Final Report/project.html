@@ -33,7 +33,7 @@
               
           h1{font-size:1.6em}
           
-          section h1{text-align:center;}
+          .section h1{text-align:center;}
 
           header a,header a:hover,header a:visited{color:#001e5f}
           
@@ -45,9 +45,12 @@
 
           header a{text-decoration:none}
 
-          section{width:100%}
+          .section{width:100%}
 
-          footer{text-align:right;font-size:small}
+          footer{
+              text-align:left;
+              font-size:small}
+
           .paper-notes{color:#834846;font-weight:normal}
           .paper-my-name{font-weight:bold}
           .paper-title{font-style:italic}
@@ -56,13 +59,17 @@
           @media print, screen and (max-width: 600px){.page{width:100%}
           header{margin:0;text-align:center;width:100%}
 
-          .content {overflow: auto;}
 
-          .column 
-          {margin-left: 10px;
-          width: 25%;
+          .column1
+          {margin:auto;
+          width:70%;
+          float:left;}
+
+          .column2
+          {margin:auto;
+          width:20%;
           float:left;
-          padding: 15px;}
+        }
 
       
         </style>
@@ -90,26 +97,23 @@
     </div>
 </header>
 
-    <section>
+    <div class="section">
           
             <h1>STORAGE BIN UNITS</h1>
-            <div id="content">
-                <div class="column">
+            <div class="content2">
+                <div class="column1">
                   <h3>No. 183050<h3>
-                    <img src="https://github.com/kanaheihsieh/kanaheihsieh.github.io/blob/main/docs/Assignments/Final%20Report/No.%20183050.png?raw=true" alt="Portrait" width="201" height="232"/>
-             
+                 <img src="https://github.com/kanaheihsieh/kanaheihsieh.github.io/blob/main/docs/Assignments/Final%20Report/No.%20183050.png?raw=true" alt="Portrait" width="201" height="232"/>
                 </div>
 
-                <div class="column">
-                  <h3>Profile Dummy Text<h3>
-                    <img src="https://github.com/kanaheihsieh/kanaheihsieh.github.io/blob/main/docs/Assignments/Final%20Report/No.%20183052.png?raw=true" alt="Portrait" width="201" height="232"/> 
-                  
+                <div class="column2">
+                  <h3>No. 183056<h3>
+                    <img src="https://github.com/kanaheihsieh/kanaheihsieh.github.io/blob/main/docs/Assignments/Final%20Report/No.%20183056.png?raw=true" 
+                    alt="Portrait" width="201" height="232"/> 
                 </div>
             </div> 
+    </div>
 
-
-
-    </section>
     </div>
 
     <footer>
